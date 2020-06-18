@@ -24,13 +24,13 @@ void async function () {
     let guess;
 
     while (guess !== secretNumber) {
-      if (guess >= secretNumber) console.log("Too large");
+      if (guess < secretNumber) console.log("Too large");
       else if (guess) console.log("Too small");
 
       guess = parseInt(await ask("Please input your guess"));
       if (isNaN(guess)) {
-        guess = undefined;
         console.log(`${guess} is not a number.`);
+        guess = undefined;
       }
     }
 

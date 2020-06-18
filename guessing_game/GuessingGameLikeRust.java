@@ -3,9 +3,10 @@ package guessing_game;
 import java.util.Scanner;
 import java.util.Random;
 
-public class GuessingGame {
+public class GuessingGameLikeRust {
   public static final Scanner console = new Scanner(System.in);
   public static final Random r = new Random();
+  
   public static void main(String[] args) {
     System.out.println("Lets play guess the number!");
     System.out.println("The game will get harder with each round, so don't leave if the first round's too easy!");

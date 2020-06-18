@@ -8,7 +8,7 @@ const rl = createInterface({
 console.log("Lets play guess the number!");
 console.log("The game will get harder with each round, so don't leave if the first round's too easy!");
 
-function ask (prompt) {
+function ask (prompt) { // I was going to include ts, but the only change (for either js file) was this method header became `function ask(prompt: string): Promise<string>`
   return new Promise(resolve => {
     rl.question(prompt + "\n", resolve);
   });
