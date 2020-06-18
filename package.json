@@ -1,0 +1,21 @@
+{
+  "name": "Comparisons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liambloom/Comparisons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liambloom/Comparisons/issues"
+  },
+  "homepage": "https://github.com/liambloom/Comparisons#readme"
+}
