@@ -1,0 +1,14 @@
+To run files:
+  js:
+    $ node <fileName>
+    eg: node myFile.mjs
+  java:
+    $ java <FileName>
+    eg: java MyFile.java
+  python:
+    $ python <file_name>
+    eg: python my_file.py
+  rust:
+    ! create Cargo.toml with a [[bin]] that includes source file_name
+    $ cargo run
+    
