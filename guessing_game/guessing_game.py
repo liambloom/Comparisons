@@ -19,21 +19,22 @@ for i in range(1, 10):
 
   print("I'm thinking of a number between 1 and " + str(max))
 
-  guess = -1
+  guess = None
 
   while guess != secret_number:
-    if (guess >= secret_number):
-      print("Too large")
-    elif guess >= 1:
-      print("Too small")
+    if (guess is not None): # == checks for equality (java .equals()), while is checks for being the same object (java ==)
+      if guess < secret_number:
+        print("Too large")
+      else:
+        print("Too small")
     
     guess = input("Please input your guess.\n")
 
     if guess.isdigit():
       guess = int(guess)
     else:
-      guess = -1
       print(str(guess) + " is not a number.")
+      guess = None
   
   print("You win!")
   if shouldendgame():
