@@ -33,7 +33,7 @@ public class Magic8 {
     System.out.println("I'm a magic 8 ball!");
     while (true) {
       System.out.println("Ask a question:");
-      while (console.nextLine().trim().isEmpty());
+      while (console.nextLine().isBlank());
       System.out.println(answers[r.nextInt(answers.length)]);
     }
   }
