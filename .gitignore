@@ -4,3 +4,5 @@ target/
 Cargo.lock
 img/*
 !img/combined-logos-written-java.svg
+*.txt
+!requirements.txt
