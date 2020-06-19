@@ -1,3 +1,6 @@
 target/
 .vscode
 .*rc
+Cargo.lock
+img/*
+!img/combined-logos-written-java.svg
