@@ -24,7 +24,6 @@ answers = [
 ]
 
 print("I'm a magic 8 ball!")
-ask = True
 while True:
   question = ""
   print("Ask a question:")
