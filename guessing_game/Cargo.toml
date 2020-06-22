@@ -10,5 +10,9 @@ edition = "2018"
 name = "rust"
 path = "guessing_game.rs"
 
+[[bin]]
+name = "like_py"
+path = "guessing_game_like_py.rs"
+
 [dependencies]
 rand = "0.5.5"
