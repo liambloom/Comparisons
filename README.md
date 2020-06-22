@@ -6,6 +6,20 @@ In this repo I have a few different projects (2 at the moment) which are written
 
 In this readme, I will first outline what each of the two projects is, and then I will describe the challenges I faced creating the projects in each language. Keep in mind that these projects are small and fairly simple, to make it easy to transpile them.
 
+## Languages
+
+In this section I will give a basic overview of each of the languages I used, without talking about the projects.
+
+### JavaScript
+
+First introduced in 1995 in [Netscape](https://en.wikipedia.org/wiki/Netscape_Navigator) 2.0, it was designed to add scripting capabilities to static HTML and CSS webpages. While it is still used as the primary language in web development, it has been used for a variety of other purposes since the introduction of [Node.js](https://nodejs.org/en/) in 2009. Node.js is a server side runtime environment for javascript, using [google's V8 engine](https://v8.dev/). For these projects I used Node.js v13.11.0.
+
+For a more technical view of the language, it is a weakly dynamically typed language. It is object-oriented, and it uses a [JIT (just-in-time) compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation), meaning it is compiled at runtime. It is synchronous, but it does have many asynchronous and callback-based apis, especially in Node.js. The official spec is [ECMA-262](http://www.ecma-international.org/publications/index.html).
+
+### Java
+
+
+
 ## Projects
 
 In this section I will outline exactly what each project does, without using any code, only a description of the actual behavior.
